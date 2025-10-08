@@ -24,6 +24,15 @@ header {
     z-index: 4;
 }
 
+footer {
+    background-color:black ;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
 /* DEBUG */
 
 .bg-blue {
@@ -172,9 +181,6 @@ header {
     min-width: 100%;
 }
 
-.hero {
-
-}
 
 .titolo {
     margin-top: 30px;
@@ -278,4 +284,20 @@ header {
     /* debug */
     background-color: rgb(221, 127, 132);
     min-height: 400px ;
+}
+
+.container-footer {
+     max-width: 80%;
+     min-height: 700px;
+    margin: 0 auto;
+        padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.footer-column {
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: space-evenly;
+    flex-basis: 20%;
+    
 }
