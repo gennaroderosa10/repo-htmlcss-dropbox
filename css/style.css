@@ -81,6 +81,9 @@ header {
     min-height: 100px;
 }
 
+.min-h-200 {
+    min-height: 200px;
+}
 
 .min-h-40 {
     min-height: 40px;
@@ -93,6 +96,10 @@ header {
 }
 
 /* utility */
+
+.border-black {
+    border: 1px solid black;
+}
 
 .white {
     color: white;
@@ -146,6 +153,10 @@ header {
 
 .border-bottom-white {
     border-bottom: 1px solid white;
+}
+
+.w-80x100 {
+    max-width: 80%;
 }
 
 /* x */
@@ -207,4 +218,14 @@ header {
 
 .flex li {
     padding-bottom: 20px;
+}
+
+.left-2 {
+    width: 70%;
+    min-height: 200px;
+}
+
+.right-2 {
+    width: 30%;
+    min-height: 200px;
 }
