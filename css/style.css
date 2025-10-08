@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+/* DEBUG */
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-yellow {
+    background-color: yellow;
+
+}
+
+.bg-brown {
+    background-color: brown;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-antiquewhite {
+    background-color: antiquewhite;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.min-h-500 {
+    min-height: 500px;
+    height: 0;
+}
+
+.min-h-100 {
+    min-height: 100px;
+}
+
+
+.min-h-40 {
+    min-height: 40px;
+    
+}
+
+.min-h-50 {
+    min-height: 50px;
+    
+}
+
+/* utility */
+
+.white {
+    color: white;
+}
+
+.width-30x100 {
+    width: 30%;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 0;
+}
+
+.border-bottom-white {
+    border-bottom: 1px solid white;
+}
+
+/* x */
+.header-nav {
+    min-width: 100%;
+}
