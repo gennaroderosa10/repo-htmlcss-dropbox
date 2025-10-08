@@ -180,6 +180,30 @@ header {
     min-height: 700px;
 }
 
+.container-2 {
+     width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.sezione-colonne {
+    padding: 10px 0;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+   
+}
+
+.colonna {
+    width: 30%;
+    margin-bottom: 20px;
+    
+    /* debug */
+    background-color: blue;
+    min-height: 1000px ;
+}
 
