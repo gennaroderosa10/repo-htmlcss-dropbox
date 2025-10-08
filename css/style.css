@@ -143,6 +143,10 @@ header {
     padding-bottom: 20px;
 }
 
+.padding-b-20 {
+     padding-bottom: 20px;
+}
+
 .flex-column {
     flex-direction: column;
 }
@@ -261,6 +265,10 @@ header {
 
 .subtitle {
     margin-bottom: 30px;
+}
+
+.subtitle-2 {
+    margin-bottom: 100px;
 }
 
 .card {
