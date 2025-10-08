@@ -159,6 +159,10 @@ header {
     max-width: 80%;
 }
 
+.mb-200 {
+    margin-bottom: 200px;
+}
+
 /* x */
 .header-nav {
     min-width: 100%;
@@ -193,6 +197,7 @@ header {
      width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 .sezione-colonne {
@@ -220,6 +225,13 @@ header {
     padding-bottom: 20px;
 }
 
+.container-3 {
+     width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
 .left-2 {
     width: 70%;
     min-height: 200px;
@@ -228,4 +240,25 @@ header {
 .right-2 {
     width: 30%;
     min-height: 200px;
+}
+
+.container-4 {
+     width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.left-3 {
+    width: 60%;
+    min-height: 500px;
+}
+
+.right-3 {
+    width: 40%;
+    min-height: 500px;
+}
+
+.subtitle {
+    margin-bottom: 30px;
 }
