@@ -72,6 +72,11 @@ header {
     height: 0;
 }
 
+.min-h-800 {
+    min-height: 800px;
+    height: 0;
+}
+
 .min-h-100 {
     min-height: 100px;
 }
@@ -147,3 +152,34 @@ header {
 .header-nav {
     min-width: 100%;
 }
+
+.hero {
+
+}
+
+.titolo {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container {
+    min-width: 80%;
+     min-height: 700px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 30%;
+    min-height: 700px;
+}
+
+.right {
+    width: 70%;
+    min-height: 700px;
+}
+
+
+
+
