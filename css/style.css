@@ -217,7 +217,7 @@ header {
     margin-bottom: 20px;
     
     /* debug */
-    background-color: blue;
+    background-color: rgb(221, 127, 132);
     min-height: 1000px ;
 }
 
@@ -261,4 +261,13 @@ header {
 
 .subtitle {
     margin-bottom: 30px;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    
+    /* debug */
+    background-color: rgb(221, 127, 132);
+    min-height: 400px ;
 }
