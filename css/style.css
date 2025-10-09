@@ -15,12 +15,20 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 ul {
     list-style: none;
 }
 
 li {
     padding: 5px;
+}
+
+header li {
+    padding: 10px;;
 }
 
 header {
@@ -200,6 +208,13 @@ footer {
 
 .link-right {
     padding-top: 15px;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+   padding: 5px 10px ;
+    margin: 0 auto;
 }
 
 
