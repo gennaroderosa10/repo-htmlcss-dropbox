@@ -204,6 +204,10 @@ footer {
     padding-right: 30px;
 }
 
+.padding-left-20 {
+    padding-left: 20px;
+}
+
 .margin-bottom-10 {
     margin-bottom: 10px;
 }
@@ -222,6 +226,10 @@ footer {
 
 .margin-top-20 {
     margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
 }
 
 .margin-left-20 {
@@ -412,12 +420,12 @@ footer {
 
 .left-3 {
     width: 60%;
-    min-height: 500px;
+    max-height: 500px;
 }
 
 .right-3 {
     width: 40%;
-    min-height: 500px;
+    max-height: 500px;
 }
 
 .subtitle {
@@ -451,4 +459,15 @@ footer {
     justify-content: space-evenly;
     flex-basis: 20%;
     
+}
+
+.button-large-white {
+    color: black;
+    background-color: white;
+    padding: 10px 20px ;
+    margin: 0 0 0 20px;
+    border: 1px solid black;
+    display: inline-block;
+    text-decoration: none;
+
 }
