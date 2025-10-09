@@ -100,12 +100,12 @@ footer {
     height: 0;
 }
 
-.min-h-600 {
+.min-h-800 {
     min-height: 800px;
     
 }
 
-.max-h-600 {
+.max-h-800 {
     max-height: 800px;
     
 }
@@ -136,6 +136,10 @@ footer {
 
 .white {
     color: white;
+}
+
+.grey {
+    color: grey;
 }
 
 .width-30x100 {
@@ -182,6 +186,42 @@ footer {
 
 .padding-b-20 {
      padding-bottom: 20px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
+.padding-right-20 {
+    padding-right: 20px;
+}
+
+.padding-right-30 {
+    padding-right: 30px;
+}
+
+.padding-right-30 {
+    padding-right: 30px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
 }
 
 .flex-column {
@@ -236,6 +276,12 @@ footer {
     font-size: 3rem;
     max-width: 80%;
     padding-bottom: 30px;
+}
+
+.h2-titolo {
+    font-size: 2rem;
+    
+    
 }
 
 .container {
@@ -310,9 +356,25 @@ footer {
     margin-bottom: 20px;
     
     /* debug */
-    background-color: rgb(221, 127, 132);
+    
     min-height: 1000px ;
 }
+
+.intestazione {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 0 5px;
+}
+
+.interno-card {
+    padding: 20px 10px;
+}
+
+.interno-card hr {
+    max-width: 30px;
+}
+
+
 
 .flex li {
     padding-bottom: 20px;
