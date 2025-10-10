@@ -288,6 +288,7 @@ footer {
     background-color: blue;
     padding: 5px 10px ;
     margin: 0 auto;
+    display: inline-block;
 }
 
 
@@ -386,6 +387,15 @@ footer {
     min-height: 1000px ;
 }
 
+.sezione-colonne li {
+    display: flex;
+    gap: 10px;
+}
+
+.sezione-colonne li i {
+    text-align: left;
+}
+
 .intestazione {
     text-align: center;
     border-bottom: 1px solid black;
@@ -393,7 +403,11 @@ footer {
 }
 
 .interno-card {
-    padding: 20px 10px;
+    padding: 20px 20px;
+}
+
+.fa-check {
+    color: blue;
 }
 
 .interno-card hr {
@@ -414,12 +428,12 @@ footer {
 }
 
 .left-2 {
-    width: 75%;
+    width: 70%;
     min-height: 200px;
 }
 
 .right-2 {
-    width: 25%;
+    width: 30%;
     min-height: 200px;
 }
 
